@@ -1,0 +1,98 @@
+ body {
+        margin: 0;
+        background: #dedede;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .gameboard {
+        height: 100vh;
+        width: 100vh;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        max-height: 60vh;
+        max-width: 60vh;
+      }
+
+      .color {
+        width: 50%;
+        height: 50%;
+        display: inline-block;
+      }
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: left;
+      }
+
+      .celeste {
+        background: #22a6b3;
+      }
+
+      .celeste.light {
+        background: #7ed6df;
+      }
+
+      .violeta {
+        background: #be2edd;
+      }
+
+      .violeta.light {
+        background: #e056fd;
+      }
+
+      .naranja {
+        background: #f0932b;
+      }
+
+      .naranja.light {
+        background: #ffbe76;
+      }
+
+      .verde {
+        background: #6ab04c;
+      }
+
+      .verde.light {
+        background: #badc58;
+      }
+
+      .btn-start {
+         width: 400px;
+         height: 100px;
+         background-color: #ecfeec;
+         color: #2c4e50;
+         font-size: 2.5rem;
+         position: absolute;
+         top: calc(50% - 50px);
+         left: calc(50% - 200px);
+         border-radius: 24px;
+         border: 1px solid #dfe1e5;
+         outline: none;
+         cursor: pointer; width: 400px;
+         height: 100px;
+         background-color: #ecfeec;
+         color: #2c4e50;
+         font-size: 2.5rem;
+         position: absolute;
+         top: calc(50% - 50px);
+         left: calc(50% - 200px);
+         border-radius: 24px;
+         border: 1px solid #dfe1e5;
+         outline: none;
+         cursor: pointer;
+      }
+      .btn-start:hover {    
+        /*border-color: blue;*/
+        box-shadow: 01px6px0rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+      }
+
+      .hide {
+        display: none;
+      }
