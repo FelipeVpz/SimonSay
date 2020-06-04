@@ -1,6 +1,6 @@
 # Simon Says
 
-A simple Simon Says game in which the colors change..
+Un juego simple de Simon dice, la idea es poner en practica la memoria de manera interactiva.
 
 ## Librerias Utilizadas
 
