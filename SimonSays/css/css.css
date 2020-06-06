@@ -1,6 +1,8 @@
  body {
         margin: 0;
-        background: #dedede;
+        /*background: #dedede;        */
+        background: url(../img/bg.jpg) no-repeat;   
+        background-size: cover;     
         display: flex;
         align-items: center;
         height: 100vh;
@@ -30,35 +32,35 @@
         float: left;
       }
 
-      .celeste {
+      .color1 {
         background: #22a6b3;
       }
 
-      .celeste.light {
+      .color1.light {
         background: #7ed6df;
       }
 
-      .violeta {
+      .color2 {
         background: #be2edd;
       }
 
-      .violeta.light {
+      .color2.light {
         background: #e056fd;
       }
 
-      .naranja {
+      .color3 {
         background: #f0932b;
       }
 
-      .naranja.light {
+      .color3.light {
         background: #ffbe76;
       }
 
-      .verde {
+      .color4 {
         background: #6ab04c;
       }
 
-      .verde.light {
+      .color4.light {
         background: #badc58;
       }
 
